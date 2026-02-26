@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ShoppingCart, Star, Clock, MapPin, Play, ChevronDown, Sparkles } from 'lucide-react';
+import { ShoppingCart, Star, Clock, MapPin, Play, ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
